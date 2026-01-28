@@ -5,6 +5,10 @@
     margin: 0;
 
 }
+
+section{
+    scroll-margin-top: 100px;
+}
 /*classes flex*/
 .flex {
     display: flex;
@@ -91,6 +95,9 @@
 .w50 {
     width: 50%;
 }
+.w60 {
+    width: 60%;
+}
 .w70 {
     width: 70%;
 }
@@ -173,10 +180,6 @@ p, a{
         }
         
 .section-hero {
-    background-image: url(asset/ImagePrésentationCut.png);
-    background-image: url(asset/IPHONESECTION\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 90vh;
     width: 100%;
     background-color: #F1E2C4;
@@ -220,7 +223,11 @@ p, a{
         }
 
 
-
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
 /*Header*/
  
 header{
@@ -230,6 +237,7 @@ header{
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    padding: 15px 30px;
 }
 
 /*Icônes*/
@@ -269,6 +277,12 @@ h5{
     font-size:23px;
     font-family: "Oxanium";
 }
+
+/*SOMMAIRE*/
+
+.sticky{
+    position: sticky;
+}
 /*FOOTER*/
 
 .footer-icone-container{
@@ -279,6 +293,4 @@ h5{
             color: white;
             border-radius: 10px;
             border: #000000 solid 2px;
-            position: absolute;
-            top: -30px;
         }

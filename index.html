@@ -13,32 +13,43 @@
     <title>Document</title>
 </head>
 
-<body >
+<body>
     <!-- HEADER et des poussiere... -->
-    <header class="flex ">
+    <header class="flex">
 
-        <img href="" src="asset/LOGOAPPLI.png" class="w10">
-        <div>
-            <ul class="flex suprpuce margin-left50 space-between">
-                <li class="w18">
-                    <a>Pourquoi T’Défis ?</a>
-                </li>
-                <li class="w18">
-                    <a>Comment ça marche ? </a>
-                </li>
-                <li class="w18">
-                    <a>Documentation</a>
-                </li>
-                <li class="w18">
-                    <a href="" class="button-yellow no-underline">Télécharger</a>
-                </li>
-            </ul>
-        </div>
+        <a href="index.html"class="w10">
+            <img href="" src="asset/LOGOAPPLI.png"  class="w100">
+        </a>
+
+        <ul class="flex suprpuce margin-left50 space-between w60 align-center">
+            <li class="">
+                <a href="#PQ">Pourquoi T’Défis?</a>
+            </li>
+            <li class="">
+                <a>Notre proposition </a>
+            </li>
+                      <li class="">
+                <a>TTémoignage </a>
+            </li>
+            <li class="">
+                <a href="documentation.html">Documentation</a>
+            </li>
+            <li class="">
+                <a href="" class="button-yellow no-underline"><i class="ph-fill ph-download-simple"></i>
+
+                     Télécharger</a>
+            </li>
+        </ul>
+
 
 
     </header>
+
+    <!-- MAIN -->
     <main>
-        <section class="section-hero container-1000"><!-- SECTION HERO - LUDIVINE -->
+
+        <!-- Section Hero -->
+        <section class="section-hero"><!-- SECTION HERO - LUDIVINE -->
             <div>
                 <h1>
                     Différent, pas moins capable.
@@ -51,7 +62,7 @@
                     <img href="" src="asset/Téléchargement_apple_store 1.png" class="w10">
                 </div>
             </div>
-            <img src="" alt="">
+            <img src="asset/" alt="">
         </section>
 
         <!-- SECTION CHIFFRES - LUDIVINE -->
@@ -94,9 +105,10 @@
         </section>
 
         <!-- SECTION POURQUOI - LUDIVINE -->
-        <section class="margin-top50 container-1000"> backgroundbeige
+        <section class="backgroundbeige" id="PQ"> 
 
-            <h2 class="titre-box">
+            <div class="margin-top50 container-1000 ">
+          <h2 class="titre-box">
                 <i class="ph-fill ph-question-mark icone-title"></i>
                 Pourquoi choisir T’Défis ?
             </h2>
@@ -143,6 +155,8 @@
 
 
             </div>
+            </div>
+  
         </section>
 
         <!-- SECTION Proposition d'Ecrans -->
@@ -159,7 +173,7 @@
                 <div>
                     <div class="box-border-black w40 margin-right-300">
                         <h5>Des défis quotidien</h5>
-                        <p>Une approche ludique et amusante pour aider les personnes TDAH</p>
+                        <p class="taille-prop-petit">Une approche ludique et amusante pour aider les personnes TDAH</p>
                     </div>
                     <img src="asset/DEFI.png" alt="">
 
@@ -167,7 +181,7 @@
                 <div>
                     <div class="box-border-black w40">
                         <h5>Personnalisation</h5>
-                        <p>Moins de surchage visuelle, plus de lisibilité, pour rester concentré sans s’épuiser</p>
+                        <p class="taille-prop-petit">Moins de surchage visuelle, plus de lisibilité, pour rester concentré sans s’épuiser</p>
                     </div>
                     <img src="asset/PARAMETRE.png" alt="">
 
@@ -177,7 +191,7 @@
                 <div>
                     <div class="box-border-black w40 marg">
                         <h5>Création de défi</h5>
-                        <p>Création de défi car c’est eux qui connaissent le mieux leur cerveau</p>
+                        <p class="taille-prop-petit">Création de défi car c’est eux qui connaissent le mieux leur cerveau</p>
                     </div>
                     <img src="asset/CREERDEFI.png" alt="" class="">
 
@@ -185,7 +199,7 @@
                 <div>
                     <div class="box-border-black w40">
                         <h5>Succès et récompenses</h5>
-                        <p>Des succès et des récompenses pour transformer chaque petit progrès en motivation concrète
+                        <p class="taille-prop-petit">Des succès et des récompenses pour transformer chaque petit progrès en motivation concrète
                         </p>
                     </div>
                     <img src="asset/SUCCES.png" alt="">
@@ -194,11 +208,11 @@
             </div>
         </section>
 
-        <!-- SECTION Témoignage -->
+        <!-- SECTION Témoignages -->
         <section class=">
 
-            <h2 class="titre-box">
-                <i class="ph-fill ph-chat-circle-dots icone-title"></i>Ils en parlent mieux que nous
+            <h2 class=" titre-box">
+            <i class="ph-fill ph-chat-circle-dots icone-title"></i>Ils en parlent mieux que nous
             </h2>
 
             <div>
@@ -271,10 +285,14 @@
     <!--FOOTER de Zga-->
     <footer class="flex">
         <div>
-            <div>
-                <h2>Rejoignez T’Défis !</h2>
-                <p>Parce que vous êtes unique et capable,
+            <div class="box-border-black flex">
+                di<h2>Rejoignez T’Défis !</h2>
+                <p class="">Parce que vous êtes unique et capable,
                     T’Défis vous accompagne dans votre particularité!</p>
+                <div>
+                <img src="asset/Téléchargement_google_store 1.png" alt="" class="w10">
+                <img src="asset/Téléchargement_apple_store 1.png" alt="" class="w10"> 
+                </div>
             </div>
             <div>
                 <h2> T’Défis</h2>
@@ -288,16 +306,13 @@
             </div>
             <div>
                 <div>
-                    <i class="ph ph-envelope-simple footer-icone-container"></i>
+                    <i class="ph ph-envelope-simple"></i>
                     <p>hello@littlelearners.com</p>
                 </div>
-                <i class="ph ph-phone footer-icone-container"></i>
+                <i class="ph ph-phone"></i>
                 <p>+91 91813 23 2309</p>
                 <div>
-                    <div class="footer-icone-container">
-                        <i class="ph ph-map-pin-line"></i>
-                    </div>
-
+                    <i class="ph ph-map-pin-line"></i>
                     <p>Somewhere in the World</p>
                 </div>
             </div>
