@@ -5,8 +5,8 @@
     margin: 0;
 
 }
+/*classes flex*/
 .flex {
-    /*rendre flexible un parent c rendre flexible ses enfant*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -23,9 +23,11 @@
     justify-content: center;
 }
 
-.align-center {
+.align-center{
     align-items: center;
 }
+
+/* Classes de largeurs */
 .container-1000 {
     max-width: 1000px;
     margin-left: auto;
@@ -39,6 +41,7 @@
 .margin-top100 {
     margin-top: 100px;
 }
+
 .padding-10{
     padding: 15px 0px 15px 0px;
 }
@@ -48,36 +51,74 @@
 .margin-50{
     margin: 50px;
 }
+.w100 {
+    width: 100%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+.w50 {
+    width: 50%;
+}
+.w40{
+    width: 40%;
+}
+.w33 {
+    width: 33%;
+}
+
+.w25 {
+    width: 25%;
+}
+.w28 {
+    width: 28%;
+}
+
+.w18{
+    width: 18%;
+}
+.w10{
+    width: 10%;
+}
+/* Classes de modification de texte */
 .txtcenter{
     text-align: center;
 }
 .suprpuce {
     list-style: none;
 }
-.button {
+
+.button-yellow {
     background-color: #F1E2C4;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 10px 25px;
     display: inline-block;
     color: rgb(0, 0, 0);
     font-family: "Oxanium",sans-serif;
-    box-shadow: 0px 0px 5px black;
+      border: #000000 2px solid;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0); 
 }
-.section-hero {
-    background-image: url(asset/ImagePrésentationCut.png);
-    background-image: url(asset/IPHONESECTION\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    border-radius: 0px 0px 0px 150px;
-    background-color: #F1E2C4;
+
+.button{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-family: "Oxanium",sans-serif;
+      border: #000000 2px solid;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0); 
 }
-/*Textes*/
+
+ 
 
 h2{
     font-size: 30px;
     font-weight: 700;
+     font-family: "Oxanium",sans-serif;
+     margin-bottom: 20px;
 }
 
 h1{
@@ -87,38 +128,44 @@ h1{
 
 p{
     font-family: "Oxanium",sans-serif;
+    font-size: 14px;
 }
 
-/*classes de dimensions*/
 
-.w-100 {
-    width: 100%;
-}
 
-.w-48 {
-    width: 48%;
+
+.icone-title{
+    font-size: 40px;
 }
 
-.w-50 {
-    width: 50%;
+/*Classes modification de fond */
+.box-border-black{
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 0px rgb(0, 0, 0); 
+            background-color: white;
+            border: #000000 3px solid;
+        }
+        
+.section-hero {
+    background-image: url(asset/ImagePrésentationCut.png);
+    background-image: url(asset/IPHONESECTION\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-color: #F1E2C4;
 }
-.w-40{
-    width: 40%;
+/* Alignement de texte */
+.align-center {
+    align-items: center;
 }
-.w-33 {
-    width: 33%;
+.align-left {
+   align-items: left;
+}
+.align-right {
+    align-items: right;
 }
 
-.w-25 {
-    width: 25%;
-}
-
-.w18{
-    width: 18%;
-}
-.w-10{
-    width: 10%;
-}
 /*Animation JS*/
         .swiper {
             width: 100%;
@@ -140,3 +187,52 @@ p{
             height: 100%;
             object-fit: cover;
         }
+
+
+
+ /* SECTION POURQUOI CHOISIR T DEFIS */
+
+        .carte-pourquoi{
+            position: relative;
+            padding-top: 40px;
+        }
+
+        
+        .carte-pourquoi h4{
+        font-family: "Oxanium",sans-serif;
+        font-weight: 600;
+        margin-bottom: 10px;
+        font-size: 15px;
+        }
+
+        .pourquoi-icone-container{
+            width: 50px;
+            height: 50px;
+            background-color: #C366A7;
+            font-size: 30px;
+            border-radius: 10px;
+            border: #000000 solid 2px;
+            position: absolute;
+            top: -30px;
+        }
+
+
+
+/*Header*/
+ 
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*Icônes*/
+
+.etoiles{
+    width: 30px;
+    height: 30px;
+    color: rgb(239, 202, 16);
+}

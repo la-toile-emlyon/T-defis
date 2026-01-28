@@ -4,16 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
-    />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Document</title>
@@ -21,23 +15,26 @@
 
 <body class="container-1000">
     <!-- HEADER et des poussiere... -->
-    <header>
+    <header class="flex ">
 
-        <img href="" src="asset/LOGOAPPLI.png">
-        <ul class="flex suprpuce margin-left50 ">
-            <li class="w18">
-                <p>Pourquoi T’Défis ?</p>
-            </li>
-            <li class="w18">
-                <p>Comment ça marche ? </p>
-            </li>
-            <li class="w18">
-                <p>Documentation</p>
-            </li>
-            <li class="w18">
-                <p class="button">Télécharger</p>
-            </li>
-        </ul>
+        <img href="" src="asset/LOGOAPPLI.png" class="w10">
+        <div>
+            <ul class="flex suprpuce margin-left50 space-between">
+                <li class="w18">
+                    <a>Pourquoi T’Défis ?</a>
+                </li>
+                <li class="w18">
+                    <a>Comment ça marche ? </a>
+                </li>
+                <li class="w18">
+                    <a>Documentation</a>
+                </li>
+                <li class="w18">
+                    <a href="" class="button-yellow">Télécharger</a>
+                </li>
+            </ul>
+        </div>
+
 
     </header>
     <main>
@@ -50,8 +47,8 @@
                     Une app pensée pour les ados TDAH pour développer leurs compétences à leur façon.
                 </p>
                 <div class="flex">
-                    <img href="" src="asset/Téléchargement_google_store 1.png">
-                    <img href="" src="asset/Téléchargement_apple_store 1.png">
+                    <img href="" src="asset/Téléchargement_google_store 1.png" class="w10">
+                    <img href="" src="asset/Téléchargement_apple_store 1.png" class="w10">
                 </div>
             </div>
             <img src="" alt="">
@@ -59,8 +56,8 @@
 
         <!-- SECTION CHIFFRES -->
         <section>
-            <div>
-                <img src="asset/Batman Emoji.png">
+            <div class="flex align-center">
+                <i class="ph-fill ph-hand-fist icone-title"></i>
                 <h2>Un super pouvoir pas si rare</h2>
             </div>
             <p>Parce que penser différemment, ce n’est pas être seul·e — c’est être puissant·se. Aujourd’hui le TDAH
@@ -89,36 +86,65 @@
             </div>
 
         </section>
-        <!-- SECTION POURQUOI -->
-        <section>
-            <div>
-                <img src="asset/QuestionMark.png">
+
+        <!-- SECTION POURQUOI - LUDIVINE -->
+        <section class="margin-top100">
+            <div class="flex align-center">
+                <i class="ph-fill ph-question-mark icone-title" ></i>
                 <h2>Pourquoi choisir T’Défis ? </h2>
             </div>
-            <div>
-                <div>
-                    <img src="asset/button puzzle violet.png" alt="">
+            
+            <!-- cards container -->
+            <div class="flex space-between margin-top100">
+
+                <!-- carte 1  -->
+                <div class="carte-pourquoi box-border-black w28">
+
+                   <div class="pourquoi-icone-container flex justify-center align-center">
+                    <i class="ph-fill ph-puzzle-piece"></i>
+                   </div> 
+
                     <h4>Construit avec vous</h4>
                     <p>T’Défis est construit pour et avec les public TDAH et les profesionnel de santé</p>
                 </div>
-                <div>
-                    <img src="asset/IconEtoileViolet.png" alt="">
+
+                <!-- carte 2  -->
+                <div class="carte-pourquoi box-border-black w28">
+
+                   <div class="pourquoi-icone-container flex justify-center align-center">
+                    <i class="ph-fill ph-puzzle-piece"></i>
+                   </div> 
+
                     <h4>Reprendre Confiance</h4>
                     <p>T’Défis est avant tout une application crée pour redonnez confiance à toute personnes atteintes
                         de TDAH</p>
                 </div>
-                <div>
-                    <img src="asset/IconCoeursurMainViolet.png" alt="">
+
+                <!-- carte 3  -->
+                <div class="carte-pourquoi box-border-black w28">
+
+                   <div class="pourquoi-icone-container flex justify-center align-center">
+                    <i class="ph-fill ph-puzzle-piece"></i>
+                   </div> 
+
                     <h4>Accompagnement</h4>
                     <p>L’équipe de T’Défis a conçu cet application pour accompagner toute personnes atteintes de TDAH
                         via nos défis proposés</p>
                 </div>
+
+
+            
             </div>
         </section>
+        
         <!-- SECTION Proposition d'Ecrans -->
-        <section class="flex">
-            <img src="asset/Icone Fusée.png" alt="">
-            <h4>Ce que T’Défis propose</h4>
+        <section class="flex margin-top100">
+
+            <div class="flex align-center">
+            <i class="ph-fill ph-rocket-launch icone-title"></i>
+            <h2>Ce que T’Défis propose</h2>
+            </div>
+
             <div>
                 <div>
                     <img src="asset/DEFI.png" alt="">
@@ -153,10 +179,15 @@
                 </div>
             </div>
         </section>
+        
         <!-- SECTION Témoignage -->
         <section>
-            <i></i>
+
+            <div class="flex align-center">
+            <i class="ph-fill ph-chat-circle-dots icone-title"></i>
             <h2>Ils en parlent mieux que nous</h2>
+            </div>
+
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div>
@@ -164,10 +195,10 @@
                             <div>
                                 <div>
                                     <div class="swiper-slide">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
                                         <p>– Lucas, 20 ans</p>
                                     </div>
                                     <p>L’app m’aide surtout à commencer quand je suis bloqué. Les défis sont courts et
@@ -183,11 +214,11 @@
                             <div>
                                 <div>
                                     <div class="swiper-slide">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
                                         <p>-Emma, 22 ans</p>
                                     </div>
                                 </div>
@@ -202,11 +233,11 @@
                             <div>
                                 <div>
                                     <div class="swiper-slide">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
-                                        <img src="asset/⭐jaune.png">
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
+                                        <i class="ph-fill ph-star etoiles"></i>
                                         <p>-Sarah, 19 ans</p>
                                     </div>
                                     <p>Grâce à l’app, j’ai repris un peu confiance en moi à la fac. J’aime le fait que
@@ -233,9 +264,10 @@
             </script>
 
         </section>
+
     </main>
     <!--FOOTER de Zga-->
-    <footer>
+    <footer class="flex">
         <div>
             <div>
                 <h2>Rejoignez T’Défis !</h2>
@@ -249,20 +281,20 @@
         </div>
         <div>
             <div>
-                <img src="asset/LOGOAPPLI.png" alt="" srcset="">
+                <img src="asset/LOGOAPPLI.png" alt="" srcset="" class="w20">
                 <p>Une app pensée pour les ados TDAH pour développer leurs compétences à leur façon</p>
             </div>
             <div>
                 <div>
-                    <img src="asset/IconLettreViolet.png" alt="" srcset="">
+                    <img src="asset/IconLettreViolet.png" alt="" srcset="" class="w10">
                     <p>hello@littlelearners.com</p>
                 </div>
                 <div>
-                    <img src="asset/IconAppelViolet.png" alt="" srcset="">
+                    <img src="asset/IconAppelViolet.png" alt="" srcset="" class="w10">
                     <p>+91 91813 23 2309</p>
                 </div>
                 <div>
-                    <img src="asset/IconGpsViolet.png" alt="" srcset="">
+                    <img src="asset/IconGpsViolet.png" alt="" srcset="" class="w10">
                     <p>Somewhere in the World</p>
                 </div>
             </div>
