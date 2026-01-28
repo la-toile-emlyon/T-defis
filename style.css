@@ -16,8 +16,17 @@ section{
     display: flex;
     flex-wrap: wrap;
 }
+.flex-start {
+    flex: start;
+}
+.flex-end {
+    flex: end;
+}
 .gap-20 {
     gap: 20px;
+}
+.gap-10{
+    gap: 10px
 }
 .space-between {
     justify-content: space-between;
@@ -66,12 +75,15 @@ section{
 .margin-left50{
     margin-left: 50px;
 }
+.margin-left{
+    margin-left: 500px;
+}
 .margin-50{
     margin: 50px;
 }
 
 .margin-right{
-    margin-right: 100%;
+    margin-right: 500px;
 }
 
 .w10{
@@ -114,7 +126,6 @@ section{
     width: 100%;
 }
 
-
 /* Classes de modification de texte */
 .txtcenter{
     text-align: center;
@@ -147,7 +158,9 @@ section{
     box-shadow: 5px 5px 0px rgb(0, 0, 0); 
 }
 
- 
+.ombre {
+    box-shadow: 0px 0px 5px gray;
+}
 
 .titre-box{
     padding: 0px 0px 20px 0px;
@@ -185,7 +198,13 @@ p, a{
             background-color: white;
             border: #000000 3px solid;
         }
-        
+.box-border-blackv2{
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px rgb(0, 0, 0); 
+            background-color: white;
+            border: #000000 0px solid;
+        }        
 
 /* Alignement de texte */
 .align-center {
@@ -241,8 +260,8 @@ header{
     align-items: center;
     text-decoration: none;
     padding: 15px 30px;
-    z-index: 10;
-}
+    z-index: 10;/* permet d'avancer le header comme un axe Z (ça avance la fonction et à l'inverse si le chiffre était négatif ça reculerais)*/
+    box-shadow: 0px 0px 5px gray; }                               
 
 /*Icônes*/
 
@@ -251,9 +270,11 @@ header{
     height: 30px;
     color: rgb(239, 202, 16);
 }
-/* taille icône header */
-.download {
-    font-size: 30px;
+
+.download { /* taille icône header */
+    font-size: 21px;
+    margin-top: 5%;
+    margin-right: 4px;
 }
 /* classes de couleur */
 .rose {
@@ -287,7 +308,10 @@ h5{
 }
 
 .fond-puzzle{
-    background-image: url();
+    background-image: url(asset/puzzle_fond.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
 }
 
 /*SOMMAIRE*/
