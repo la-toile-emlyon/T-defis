@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -21,6 +30,9 @@ section{
 }
 .flex-end {
     flex: end;
+}
+.flex-wrap {
+    flex-wrap: wrap;
 }
 .gap-20 {
     gap: 20px;
@@ -45,7 +57,11 @@ section{
 }
 
 /* Classes de largeurs */
-
+.container-2000 {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .container-1000 {
     max-width: 1000px;
     margin-left: auto;
@@ -296,7 +312,12 @@ header{
 .background-violetpastel {
     background-color:#BF9DD8;
 }
+/*SECTION Pourquoi*/
 
+.taille-bg{
+    height:200%;
+    bac
+}
 /*SECTION PROPOSITION*/
 
 .taille-prop-petit{
@@ -364,6 +385,18 @@ h5{
     padding: 10px;
 }
 
+/*SOMMAIRE*/
+
+.cadre-sommaire{
+            width:25%;
+            border-radius: 20px;
+            box-shadow: 5px 5px 0px rgb(0, 0, 0); 
+            background-color: white;
+            border: #000000 3px solid;
+            font-size: 20px;
+            position: sticky;
+            top: 0px;
+}
 /*FOOTER*/
 
 .footer-icone-container{
