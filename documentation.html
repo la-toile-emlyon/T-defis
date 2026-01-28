@@ -21,23 +21,25 @@
 
 <body class="container-1000 ">
     <!-- HEADER et des poussière... -->
-    <header>
+    <header class="flex margin-top20">
 
-        <img href="" src="asset/LOGOAPPLI.png">
-        <ul>
-            <li>
-                <p>Pourquoi T’Défis ?</p>
-            </li>
-            <li>
-                <p>Comment ça marche ? </p>
-            </li>
-            <li>
-                <p>Documentation</p>
-            </li>
-            <li>
-                <p>Télécharger</p>
-            </li>
-        </ul>
+        <img href="" src="asset/LOGOAPPLI.png" class="w10">
+        <div>
+            <ul class="flex suprpuce margin-left50 space-between">
+                <li class="w18">
+                    <a>Pourquoi T’Défis ?</a>
+                </li>
+                <li class="w18">
+                    <a>Comment ça marche ? </a>
+                </li>
+                <li class="w18">
+                    <a>Documentation</a>
+                </li>
+                <li class="w18">
+                    <a href="" class="button-yellow">Télécharger</a>
+                </li>
+            </ul>
+        </div>
 
     </header>
     <main>
@@ -63,7 +65,7 @@
                     <a href="#midfi" src="">Midfidelity</a>
                     <a href="#proto" src="">Prototype</a>
                     <a href="#tests" src="">Tests utilisateurs</a>
-                    <a href="" src="">Perspectives d’évolution</a>
+                    <a href="#evolutions" src="">Perspectives d’évolution</a>
                 </li>
             </ul>
         </div>
@@ -221,7 +223,9 @@
                     <img src="asset/T.U.DéfiReussi.png" alt="" srcset="">
                 </div>
                 <p>Dans le menu d’accueil , associer les couleurs au logo pour plus de cohérences, le nom des défis.
-                    pour renforcer l’identité visuel de l’app</p>
+                    pour re
+                    
+                    nforcer l’identité visuel de l’app</p>
             </div>
             <div>
                 <img src="asset/T.U.Succès.png" alt="">
@@ -230,7 +234,7 @@
             </div>
         </section>
         <!-- SECTION Evolution-->
-        <section>
+        <section id="evolutions">
             <div>
                 <i></i><h4>Evolutions à venir</h4>
             </div>
@@ -265,15 +269,16 @@
             </div>
             <div>
                 <div>
-                    <img src="asset/IconLettreViolet.png">
+                    <i class="ph ph-envelope-simple footer-icone-container"></i>
                     <p>hello@littlelearners.com</p>
                 </div>
                 <div>
-                    <img src="asset/IconAppelViolet.png" alt="" srcset="">
+                    <i class="ph ph-phone footer-icone-container"></i>
                     <p>+91 91813 23 2309</p>
                 </div>
                 <div>
-                    <img src="asset/IconGpsViolet.png" alt="" srcset="">
+                    <div class="footer-icone-container"><i class="ph ph-map-pin-line"></i> </div>
+                    
                     <p>Somewhere in the World</p>
                 </div>
             </div>

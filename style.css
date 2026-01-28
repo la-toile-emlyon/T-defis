@@ -10,7 +10,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+.gap-20 {
+    gap: 20px;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -28,6 +30,7 @@
 }
 
 /* Classes de largeurs */
+
 .container-1000 {
     max-width: 1000px;
     margin-left: auto;
@@ -41,7 +44,12 @@
 .margin-top100 {
     margin-top: 100px;
 }
-
+.margin-top50 {
+    margin-top: 50px;
+}
+.margin-top20 {
+    margin-top: 20px;
+}
 .padding-10{
     padding: 15px 0px 15px 0px;
 }
@@ -51,37 +59,47 @@
 .margin-50{
     margin: 50px;
 }
-.w100 {
-    width: 100%;
+
+.margin-right-300{
+    margin-right: 300px;
 }
 
-.w48 {
-    width: 48%;
+.w10{
+    width: 10%;
 }
-
-.w50 {
-    width: 50%;
+.w18{
+    width: 18%;
 }
-.w40{
-    width: 40%;
+.w23 {
+    width: 23%;
 }
-.w33 {
-    width: 33%;
-}
-
 .w25 {
     width: 25%;
 }
 .w28 {
     width: 28%;
 }
+.w33 {
+    width: 33%;
+}
+.w40{
+    width: 40%;
+}
+.w48 {
+    width: 48%;
+}
+.w50 {
+    width: 50%;
+}
+.w70 {
+    width: 70%;
+}
+.w100 {
+    width: 100%;
+}
 
-.w18{
-    width: 18%;
-}
-.w10{
-    width: 10%;
-}
+
+
 /* Classes de modification de texte */
 .txtcenter{
     text-align: center;
@@ -89,7 +107,9 @@
 .suprpuce {
     list-style: none;
 }
-
+.no-underline {
+    text-decoration: none; /* Supprime le soulignement */
+}
 .button-yellow {
     background-color: #F1E2C4;
     border-radius: 5px;
@@ -114,11 +134,19 @@
 
  
 
+.titre-box{
+    padding: 20px 0px 20px 0px;
+}
+
+.big-number{
+       font-size: 70px;
+    font-weight: 700;
+     font-family: "Oxanium",sans-serif; 
+}
 h2{
     font-size: 30px;
     font-weight: 700;
      font-family: "Oxanium",sans-serif;
-     margin-bottom: 20px;
 }
 
 h1{
@@ -126,12 +154,9 @@ h1{
     font-weight: 700;
 }
 
-p{
+p, a{
     font-family: "Oxanium",sans-serif;
-    font-size: 14px;
 }
-
-
 
 
 .icone-title{
@@ -153,6 +178,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    width: 100%;
     background-color: #F1E2C4;
 }
 /* Alignement de texte */
@@ -165,29 +191,6 @@ p{
 .align-right {
     align-items: right;
 }
-
-/*Animation JS*/
-        .swiper {
-            width: 100%;
-            height: 100%;
-        }
-
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #444;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
 
 
  /* SECTION POURQUOI CHOISIR T DEFIS */
@@ -236,3 +239,46 @@ header{
     height: 30px;
     color: rgb(239, 202, 16);
 }
+/* classes de couleur */
+.rose {
+    color: #C366A7;
+}
+.violet-pastel {
+    color: #BF9DD8;
+}
+.beige-pastel {
+    color: #F1E2C4;
+}
+/* classes de la couleur de fond */
+.backgroundbeige {
+    background-color: #F1E2C4;
+}
+.backgroundrose {
+    background-color: #C366A7;
+}
+.background-violetpastel {
+    background-color:#BF9DD8;
+}
+
+/*SECTION PROPOSITION*/
+
+.taille-prop-petit{
+    font-size: 14px;
+}
+h5{
+    font-size:23px;
+    font-family: "Oxanium";
+}
+/*FOOTER*/
+
+.footer-icone-container{
+            width: 30px;
+            height: 30px;
+            background-color: #C366A7;
+            font-size: 20px;
+            color: white;
+            border-radius: 10px;
+            border: #000000 solid 2px;
+            position: absolute;
+            top: -30px;
+        }
