@@ -45,6 +45,18 @@ section {
     align-items: center;
     display: flex;
 }
+.moove1{
+    transform: translate();
+}
+.moove2{
+    transform: translate();
+}
+.moove3{
+    transform: translate();
+}
+.moove4{
+    transform: translate();
+}
 
 .gap-20 {
     gap: 20px;
