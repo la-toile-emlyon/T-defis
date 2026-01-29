@@ -46,16 +46,16 @@ section {
     display: flex;
 }
 .moove1{
-    transform: translate();
+    transform: translate(125px,42px);
 }
 .moove2{
-    transform: translate();
+    transform: translate(125px,42px);
 }
 .moove3{
-    transform: translate();
+    transform: translate(125px,39px);
 }
 .moove4{
-    transform: translate();
+    transform: translate(125px,42px);
 }
 
 .gap-20 {
