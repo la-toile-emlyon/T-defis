@@ -45,19 +45,24 @@ section {
     align-items: center;
     display: flex;
 }
-.moove1{
-    transform: translate(125px,42px);
+
+.moove1 {
+    transform: translate(125px, 42px);
 }
-.moove2{
-    transform: translate(125px,42px);
+
+.moove2 {
+    transform: translate(125px, 42px);
 }
-.moove3{
-    transform: translate(125px,39px);
+
+.moove3 {
+    transform: translate(125px, 39px);
 }
-.moove4{
-    transform: translate(125px,42px);
+
+.moove4 {
+    transform: translate(125px, 42px);
 }
-.divmoove{
+
+.divmoove {
     transform: translate(120px, -2px);
 }
 
@@ -197,10 +202,11 @@ section {
 }
 
 /* Classes de modification de texte */
-.titre{
-     font-weight: bold;
-     font-size: 30px;
+.titre {
+    font-weight: bold;
+    font-size: 30px;
 }
+
 .txtcenter {
     text-align: center;
 }
@@ -381,7 +387,7 @@ header {
 /* classes de la couleur de fond */
 .backgroundbeige {
     background-color: #F1E2C4;
-    height: 600px;
+
 }
 
 .backgroundrose {
@@ -442,7 +448,7 @@ h5 {
 }
 
 .download-box img {
-
+    border: #000000 3px solid;
     border-radius: 10px;
 }
 
@@ -486,11 +492,24 @@ h5 {
     top: 0px;
 }
 
+/*div appstore googleplay*/
+.bbb-div {
+    padding: 5px;
+    border-radius: 20px;
+    /*box-shadow: 5px 5px 0px rgb(0, 0, 0);*/
+    background-color: white;
+    border: #000000 3px solid;
+}
+
 /*FOOTER*/
 
+.traitNoir {
+    border: #000000 solid 1px;
+}
+
 .footer-icone-container {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     background-color: #C366A7;
     font-size: 20px;
     color: white;
