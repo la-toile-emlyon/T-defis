@@ -57,6 +57,9 @@ section {
 .moove4{
     transform: translate(125px,42px);
 }
+.divmoove{
+    transform: translate(120px, -2px);
+}
 
 .gap-20 {
     gap: 20px;
@@ -82,7 +85,7 @@ section {
     align-items: center;
 }
 
-/* Classes de largeurs */
+/* Classes de largeurs et hauteurs*/
 .container-2000 {
     max-width: 2000px;
     margin-left: auto;
@@ -119,6 +122,10 @@ section {
 
 .padding-20 {
     padding: 20px 0px 20px 0px;
+}
+
+.padding-40 {
+    padding: 40px 0px 40px 0px;
 }
 
 .margin-left50 {
@@ -190,6 +197,10 @@ section {
 }
 
 /* Classes de modification de texte */
+.titre{
+     font-weight: bold;
+     font-size: 30px;
+}
 .txtcenter {
     text-align: center;
 }
@@ -370,6 +381,7 @@ header {
 /* classes de la couleur de fond */
 .backgroundbeige {
     background-color: #F1E2C4;
+    height: 600px;
 }
 
 .backgroundrose {
@@ -383,7 +395,7 @@ header {
 /*SECTION Pourquoi*/
 
 .taille-bg {
-    height: 200%;
+    height: 400%;
 }
 
 /*SECTION PROPOSITION*/
