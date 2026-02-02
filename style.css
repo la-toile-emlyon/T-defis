@@ -146,6 +146,7 @@ section {
     margin-bottom: 20px;
 }
 
+
 .padding-10 {
     padding: 15px 0px 15px 0px;
 }
@@ -175,7 +176,9 @@ section {
 .margin-50 {
     margin: 50px;
 }
-
+.margin-right18 {
+    margin-right: 18%;
+}
 .margin-right {
     margin-right: 500px;
 }
@@ -232,6 +235,9 @@ section {
 
 .w100 {
     width: 100%;
+}
+.w125 {
+    width: 125%;
 }
 
 /* Classes de modification de texte */
@@ -621,9 +627,32 @@ h5 {
 /*TESTS UTILISATEURS*/
 
 .image-test-utilisateur {
-    width: 30%;
+    width: 75%;
+    padding: 20px;
+    border-radius: 5%;
+    margin-left: 15%;
+}
+
+.image-test-utilisateur2 {
+    width: 60%;
     padding: 20px;
     border-radius: 10px;
+    margin-left: 20%;
+
+}
+
+.image-test-utilisateur3 {
+     width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.image-test-utilisateur4 {
+    width: 86%;
+    padding: 20px;
+    border-radius: 5%;
+    margin-left: 15%;
 }
 
 /*EQUIPE*/
