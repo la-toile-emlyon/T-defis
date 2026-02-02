@@ -17,6 +17,16 @@
 
 }
 
+p{
+    font-size: 18px;
+    font-family: "Oxanium", sans-serif;
+}
+
+h4{
+    font-size: 22px;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 600;
+}
 section {
     scroll-margin-top: 100px;
     padding: 80px 0px;
@@ -515,4 +525,8 @@ h5 {
     color: white;
     border-radius: 5px;
     border: #000000 solid 2px;
+}
+
+.ombre{
+    box-shadow: 0px 0px 5px gray;
 }
