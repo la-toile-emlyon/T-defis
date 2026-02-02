@@ -258,7 +258,7 @@ section {
     box-shadow: 5px 5px 0px rgb(0, 0, 0);
 }
 
-.button {
+/*.button {
     background-color: #ffffff;
     border-radius: 5px;
     padding: 10px 25px;
@@ -267,7 +267,7 @@ section {
     font-family: "Oxanium", sans-serif;
     border: #000000 2px solid;
     box-shadow: 5px 5px 0px rgb(0, 0, 0);
-}
+} */
 
 .ombre {
     box-shadow: 0px 0px 5px gray;
@@ -394,6 +394,30 @@ header {
     /* permet d'avancer le header comme un axe Z (ça avance la fonction et à l'inverse si le chiffre était négatif ça reculerais)*/
     box-shadow: 0px 0px 5px gray;
 }
+
+/* From Uiverse.io by adamgiebl */ 
+button {
+  background: #F1E2C4;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
 
 /*Icônes*/
 
@@ -577,6 +601,45 @@ h5 {
     padding: 20px;
     border-radius: 10px;
 }
+
+/*EQUIPE*/
+
+.card {
+  font-family: Montserrat, sans-serif;
+  width: 300px;
+  height: 250px;
+  translate: -6px -6px;
+  background: #ff66a3;
+  border: 3px solid #000000;
+  box-shadow: 12px 12px 0 #000000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.head {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  width: 100%;
+  height: 32px;
+  background: #ffffff;
+  padding: 5px 12px;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.content {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card:hover {
+  translate: -6px;
+}
+
+
 /*FOOTER*/
 
 .traitNoir {
