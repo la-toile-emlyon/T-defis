@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
     <title>Document</title>
 </head>
 
@@ -89,7 +96,7 @@
                 (Trouble de l’attention et de l’hyperactivité) c’est ... </p>
 
 
-            <div class="flex space-between margin-top50 ">
+            <div data-aos="fade-up" class="flex space-between margin-top50">
 
                 <div class="w23 box-border-black">
                     <p class="big-number">5 %</p>
@@ -107,7 +114,7 @@
                 </div>
 
                 <div class="w23 box-border-black">
-                    <p class="big-number">2</p>
+                    <p class="big-number">2M</p>
                     <p>millions de personnes (enfants + adultes) seraient concernées par le TDAH en France.</p>
                 </div>
 
@@ -118,7 +125,7 @@
         <!-- SECTION POURQUOI - LUDIVINE -  TERMINÉ  -->
         <section class="backgroundbeige taille-bg" id="PQ">
 
-            <div class="container-1000 ">
+            <div data-aos="fade-up" class="container-1000 ">
                 <h2 class="titre-box">
                     <i class="ph-fill ph-question-mark icone-title"></i>
                     Pourquoi choisir T’Défis ?
@@ -183,7 +190,7 @@
 
             <div class="flex container-1000 space-between">
                 <div class="w48 align-center colonne">
-                    <div class="colonne">
+                    <div data-aos="fade-right" class="colonne">
                         <div class="box-border-black w48 moove1">
                             <h5>Des défis quotidien</h5>
                             <p class="taille-prop-petit">Une approche ludique et amusante pour aider les personnes TDAH
@@ -192,7 +199,7 @@
                         <img src="asset/ecran_defi.png" alt="" class="w48">
 
                     </div>
-                    <div class="margin-top50 colonne">
+                    <div data-aos="fade-right" class="margin-top50 colonne">
                         <div class="box-border-black w48 moove2">
                             <h5>Personnalisation</h5>
                             <p class="taille-prop-petit">Moins de surchage visuelle, plus de lisibilité, pour rester
@@ -203,7 +210,7 @@
                     </div>
                 </div>
                 <div class="w48 container-1000 align-center colonne">
-                    <div class="margin-top100 colonne">
+                    <div  data-aos="fade-left" class="margin-top100 colonne">
 
                         <div class="box-border-black w48 moove3">
                             <h5>Création de défi</h5>
@@ -212,7 +219,7 @@
                         </div>
                         <img src="asset/Ecran_creerundefi.png" alt="" class="w48">
                     </div>
-                    <div class="margin-top50 colonne">
+                    <div data-aos="fade-left" class="margin-top50 colonne">
                         <div class="box-border-black w48 moove4">
                             <h5>Succès et récompenses</h5>
                             <p class="taille-prop-petit">Des succès et des récompenses pour transformer chaque petit
@@ -298,7 +305,7 @@
             </div>
         </section>
         <!--DIV Google Play et Apple Store-->
-        <div>
+        <div data-aos="zoom-in"data-aos-duration="2000">
             <div class="box-border-black flex align-center container-1000 margin-top50">
                 <div class="w50 divmoove">
                     <h2 class="flex titre">Rejoignez T’Défis !</h2>
@@ -331,11 +338,12 @@
 
 
         <div class="flex margin-top50 padding-40 flex space-between gap-10">
-            <div class="w50">
+            <div class="w50 margin-left50">
                 <img src="asset/LOGOAPPLI.png" alt="" srcset="" class="w33">
-                <p class="margin-top20">Une app pensée pour les ados TDAH pour développer leurs compétences à leur façon</p>
+                <p class="margin-top20">Une app pensée pour les ados TDAH pour développer leurs compétences à leur façon
+                </p>
             </div>
-            <div class="">
+            <div class="margin-right-50">
                 <div class="flex">
                     <i class="ph-fill ph-envelope footer-icone-container"></i>
                     <p>hello@littlelearners.com</p>
@@ -351,8 +359,10 @@
             </div>
         </div>
     </footer>
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

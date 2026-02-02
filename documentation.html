@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="frn">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -57,9 +58,10 @@
             <img src="" alt="">
         </section>
         <!-- SOMMAIRE-->
-        <div class="cadre-sommaire flex-wrap">
+        <div class="cadre-sommaire flex-wrap margin-top20
+    ">
             <h5>SOMMAIRE :</h5>
-            <ul>
+            <ul class="suprpuce">
                 <li><a href="#contexte" src="">Contexte</a></li>
                 <li><a href="#persona" src="">Persona</a></li>
                 <li><a href="#problematique" src="">Problématique</a></li>
@@ -74,10 +76,10 @@
             </ul>
         </div>
         <!-- SECTION CONTEXTE-->
-        <section class="flex-end">
-            <div id="contexte">
-                <div>
-                    <i class="ph-fill ph-books"></i>
+        <section class="documentation-box">
+            <div id="contexte" class="box-border-black margin-bottom20 margin-top20">
+                <div class="flex">
+                    <i class="ph-fill ph-books icone-title"></i>
                     <h2>Contexte</h2>
                 </div>
                 <p>Environ 2 millions de personnes (enfants + adultes) en France seraient touchées par un TDAH.
@@ -92,12 +94,13 @@
                     d’essayer de les aider à mieux se comprendre, à reprendre confiance en eux, et à s’épanouir
                     pleinement</p>
             </div>
-            <div id="persona" class="box-border-black">
-                <div>
-                    <i class="ph-fill ph-crosshair"></i>
+            <div id="persona" class="">
+                <div class="flex">
+                    <i class="ph-fill ph-crosshair icone-title"></i>
                     <h2>Persona</h2>
                 </div>
-                <img src="asset/Nathanael.png" alt="">
+                <img src="asset/Persona.png" class="persona">
+                <!-- <img src="asset/Nathanael.png" alt="">
                 <div>
                     <div>
                         <h5>Bio</h5>
@@ -128,35 +131,37 @@
                             récompenses et des niveaux “</h5>
                     </div>
                 </div>
-            </div>
-            <div id="problematique">
-                <h4>Comment redonner confiance à Nathanaël envers lui-même malgré son handicap invisible ?</h4>
-            </div>
-            <div>
-                <div id="concept">
-                    <i class="ph-fill ph-books"></i>
-                    <h2>Le concept</h2>
+            </div>  -->
+                <div id="problematique" class="problematique-box">
+                    <h4>Comment redonner confiance à Nathanaël envers lui-même malgré son handicap invisible ?</h4>
                 </div>
-                <p>Un service numérique type application qui redonne confiance aux éléves souffrant de TDAH en donnant
-                    des défis à faire et des tips pour les réussir mais aussi grâce aux commentaires des utilisateurs
-                </p>
-            </div>
+                <div class="margin-top20 box-border-black ">
+                    <div id="concept" class="flex">
+                        <i class="ph-fill ph-books icone-title"></i>
+                        <h2>Le concept</h2>
+                    </div>
+                    <p>Un service numérique type application qui redonne confiance aux éléves souffrant de TDAH en
+                        donnant
+                        des défis à faire et des tips pour les réussir mais aussi grâce aux commentaires des
+                        utilisateurs
+                    </p>
+                </div>
         </section>
         <!-- SECTION USER-FLOW-->
-        <section id="userflow">
+        <section id="userflow" class="documentation-box">
             <div>
-                <div>
-                    <i class="ph-fill ph-arrow-fat-lines-right"></i>
+                <div class="flex">
+                    <i class="ph-fill ph-arrow-fat-lines-right icone-title"></i>
                     <h2>User flow</h2>
                 </div>
-                <img src="asset/UserFlow.png" alt="" srcset="">
+                <img src="asset/userflow.png" alt="" srcset="" class="userflow-img">
             </div>
         </section>
         <!-- SECTION LOW-FI + MID-FI-->
-        <section>
+        <section class="documentation-box">
             <div id="lowfi">
-                <div>
-                    <i class="ph-fill ph-pencil"></i>
+                <div class="flex">
+                    <i class="ph-fill ph-pencil icone-title"></i>
                     <h4>Low fidelity</h4>
                 </div>
                 <div class="flex">
@@ -188,37 +193,37 @@
                     <!--scroll horizontale low-fi-->
                 </div>
             </div>
-            <div id="midfi">
-                <div>
-                    <i class="ph-fill ph-paint-brush"></i>
+            <div id="midfi" class="flex">
+                <div class="margin-bottom20 flex">
+                    <i class="ph-fill ph-paint-brush icone-title"></i>
                     <h4>Mid fidelity</h4>
                 </div>
-                <div>
-                    <div> <img src="asset/midFi/midFi-1.png" alt="" srcset="">
+                <div class="flex">
+                    <div> <img src="asset/midFi/midFi-1.png" alt="" srcset="" class="w33">
                         <p>Page d'accueil</p>
                     </div>
-                    <div> <img src="asset/midFi/midFi-2.png" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-2.png" alt="" srcset="" class="w33">
                         <p>Liste défis</p>
                     </div>
-                    <div> <img src="asset/midFi/midFi-3.png" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-3.png" alt="" srcset="" class="w33">
                         <p>Liste défis filtrés</p>
                     </div>
-                    <div> <img src="" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-4.png" alt="" srcset="" class="w33">
                         <p>Détails défi</p>
                     </div>
-                    <div> <img src="" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-5.png" alt="" srcset="" class="w33">
                         <p>Défi réussi</p>
                     </div>
-                    <div> <img src="" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-6.png" alt="" srcset="" class="w33">
                         <p>Recap défi 1</p>
                     </div>
-                    <div> <img src="" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-7.png" alt="" srcset="" class="w33">
                         <p>Recap défi 2</p>
                     </div>
-                    <div> <img src="" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-8.png" alt="" srcset="" class="w33">
                         <p>Paramètres</p>
                     </div>
-                    <div> <img src="" alt="" srcset="">
+                    <div> <img src="asset/midFi/midFi-9.png" alt="" srcset="" class="w33">
                         <p>Page profil</p>
                     </div>
                     <!--scroll horizontale mid-fi-->
@@ -226,10 +231,10 @@
             </div>
         </section>
         <!-- SECTION prototype-->
-        <section id="proto">
+        <section id="proto" class="documentation-box">
             <div>
-                <div>
-                    <i class="ph-fill ph-device-mobile"></i>
+                <div class="flex">
+                    <i class="ph-fill ph-device-mobile icone-title"></i>
                     <h4>Le prototype</h4>
                 </div>
                 <div>
@@ -240,98 +245,122 @@
             </div>
         </section>
         <!-- SECTION Tests Utilisateur-->
-        <section id="tests">
-            <div>
-                <i class="ph-fill ph-thermometer-hot"></i>
-                <h4>Tests utilisateurs</h4>
-            </div>
-            <div>
-                <div>
-                    <p>Avant</p>
-                    <img src="asset/T.U.Search.png" alt="" srcset="">
+        <div>
+            <section id="tests" class="documentation-box">
+                <div class="flex">
+                    <i class="ph-fill ph-thermometer-hot icone-title"></i>
+                    <h4>Tests utilisateurs</h4>
                 </div>
-                <div>
-                    <p>Après</p>
-                    <img src="asset/T.U.Filtres.png" alt="" srcset="">
+                <div class="box-violet">
+                    <div class="flex">
+                        <div class="w50">
+                            <p class="txtcenter titre">Avant</p>
+                            <img src="asset/avant-apres/tu_avant_filtres.png" alt="" srcset=""
+                                class="image-test-utilisateur align-center">
+                        </div>
+                        <div class="w50">
+                            <p class="txtcenter titre">Après</p>
+                            <img src="asset/avant-apres/tu_apres_filtres.png" alt="" srcset=""
+                                class="image-test-utilisateur align-center">
+                        </div>
+                        <p class="gras">Il y avait à la fois la barre de recherche et les filtres qui compliquait la
+                            recherche de
+                            défi,
+                            donc
+                            nous avons uniquement ajouté que des boutons filtres</p>
+                    </div>
                 </div>
-                <p>Il y avait à la fois la barre de recherche et les filtres qui compliquait la recherche de défi, donc
-                    nous avons uniquement ajouté que des boutons filtres</p>
-            </div>
-            <div>
-                <div>
-                    <p>Avant</p>
-                    <img src="asset/T.U.PageAcceuil.png" alt="a*" srcset="">
+                <div class="box-violet">
+                    <div>
+                        <p class="txtcenter titre">Avant</p>
+                        <img src="asset/avant-apres/tu_accueil_avant.png" alt="a*" srcset="">
+                    </div>
+                    <div>
+                        <p class="txtcenter titre">Après</p>
+                        <img src="asset/avant-apres/tu_accueil_apres.png" alt="" srcset="">
+                    </div>
+                    <p class="gras">La page d’accueil était flou car il y avait trop de boutons (1 par fonctionnalités
+                        de l’app) .On
+                        a
+                        choisit de valoriser seulement les deux fonctionnalités principales en faisant des gros boutons
+                    </p>
                 </div>
-                <div>
-                    <p>Après</p>
-                    <img src="asset/T.U.PageAcceuil2.png" alt="" srcset="">
+                <div class="box-violet">
+                    <div>
+                        <p class="txtcenter titre">Avant</p>
+                        <img src="asset/avant-apres/tu_defi_avant.png" alt="" srcset="">
+                    </div>
+                    <div>
+                        <p class="txtcenter titre">Après</p>
+                        <img src="asset/avant-apres/tu_defi_apres.png" alt="" srcset="">
+                    </div>
+                    <p>Dans le menu d’accueil , associer les couleurs au logo pour plus de cohérences, le nom des défis.
+                        pour renforcer l’identité visuel de l’app</p>
                 </div>
-                <p>La page d’accueil était flou car il y avait trop de boutons (1 par fonctionnalités de l’app) .On a
-                    choisit de valoriser seulement les deux fonctionnalités principales en faisant des gros boutons</p>
-            </div>
-            <div>
-                <div>
-                    <p>Avant</p>
-                    <img src="asset/T.U.DefiPublier.png" alt="" srcset="">
+                <div class="box-violet">
+                    <img src="asset/avant-apres/tu_succes.png" alt="">
+                    <p class="gras">Afficher en grisé les succès qui ne sont pas encore déverrouillés permettrait de
+                        mieux visualiser
+                        les
+                        objectifs à venir et de stimuler la motivation.</p>
                 </div>
-                <div>
-                    <p>Après</p>
-                    <img src="asset/T.U.DéfiReussi.png" alt="" srcset="">
-                </div>
-                <p>Dans le menu d’accueil , associer les couleurs au logo pour plus de cohérences, le nom des défis.
-                    pour renforcer l’identité visuel de l’app</p>
-            </div>
-            <div>
-                <img src="asset/T.U.Succès.png" alt="">
-                <p>Afficher en grisé les succès qui ne sont pas encore déverrouillés permettrait de mieux visualiser les
-                    objectifs à venir et de stimuler la motivation.</p>
-            </div>
+        </div>
         </section>
         <!-- SECTION Evolution-->
-        <section id="evolutions" class="background-violetpastel">
-            <div>
-                <i class="ph-fill ph-baby"></i>
+        <section id="evolutions" class="background-violetpastel documentation-box">
+            <div class="flex">
+                <i class="ph-fill ph-baby icone-title"></i>
                 <h4>Evolutions à venir</h4>
             </div>
-            <div>
-                <ul>
-                    <li>Rendre toutes les fonctionnalités des paramètres pleinement fonctionnelles</li>
-                    <li>Mettre en place des récompenses basées sur le niveau et le temps de jeu</li>
-                    <li>Ajouter un système de progression visible et motivant</li>
-                    <li>Envisager l’intégration d’un réseau social interne pour favoriser l’échange et la motivation
-                        entre utilisateurs</li>
-                </ul>
-            </div>
+
+            <ul class="margin-left-100">
+                <li>Rendre toutes les fonctionnalités des paramètres pleinement fonctionnelles</li>
+                <li>Mettre en place des récompenses basées sur le niveau et le temps de jeu</li>
+                <li>Ajouter un système de progression visible et motivant</li>
+                <li>Envisager l’intégration d’un réseau social interne pour favoriser l’échange et la motivation
+                    entre utilisateurs</li>
+            </ul>
+
         </section>
         <!-- Section l'Equipe -->
-        <section id="equipe">
-            <i class="ph-fill ph-users-four"></i>
-            <h2 class="">L'ékip
-            </h2>
-            <div>
-                <img src="" alt="">
-                <p>Adélie (Leadeuse et la plus doué du groupe)</p>
+        <section id="equipe" class="documentation-box">
+            <div class="flex">
+                <i class="ph-fill ph-users-four icone-title"></i>
+                <h2 class="">L'équipe
+                </h2>
             </div>
-            <div>
-                <img src="" alt="">
-                <p>Raïs (Motivateur du groupe)</p>
-            </div>
+            <div class="flex">
+                <div class="w50">
+                    <img src="" alt="">
+                    <h4>Adélie</h4>
+                    <p>La rabat-joie qui perfectionne et paufine chaque détail (et en plus qui fait le tyran à donner
+                        des ordres)</p>
+                </div>
 
-            <div>
-                <img src="" alt="">
-                <p>Noé (Il joue à BrawlStars)</p>
-            </div>
+                <div class="w50">
+                    <img src="" alt="">
+                    <h4>Raïs</h4>
+                    <p>Notre leader très charismatique qui aime beaucoup le orange</p>
+                </div>
 
-            <div>
-                <img src="" alt="">
-                <p>Nathan (Animateur 3D/2D tétû mais on l'aime bien)</p>
+                <div class="w50">
+                    <h4>Noé</h4>
+                    <img src="" alt="">
+                    <p>Le soucieux de bien faire qui structure bien ses maquettes (et il joue à Brawl Stars)</p>
+                </div>
+
+                <div class="w50">
+                    <h4>Nathan</h4>
+                    <img src="" alt="">
+                    <p>Notre designer artiste animateur 3D/2D très têtu</p>
+                </div>
             </div>
         </section>
-
-        <!--DIV Google Play et Apple Store-->
+    </main>
+    <section class="">
         <div>
             <div class="box-border-black flex align-center container-1000 margin-top50">
-                <div class="w50 divmoove">
+                <div class="w50 divmoove flex">
                     <h2 class="flex titre">Rejoignez T’Défis !</h2>
                     <p class="flex margin-top20 w70">Parce que vous êtes unique et capable,
                         T’Défis vous accompagne dans votre particularité!</p>
@@ -342,28 +371,32 @@
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+    <!--DIV Google Play et Apple Store-->
+
+
     <!--FOOTER de Zga-->
     <!-- FOOTER A COLLER -->
-     <footer class="flex margin-top100 container-1000">
+    <footer class="flex margin-top100 container-1000">
 
 
 
         <div class="flex margin-top50 padding-40 flex space-between gap-10">
             <div class="w50">
                 <img src="asset/LOGOAPPLI.png" alt="" srcset="" class="w33">
-                <p class="margin-top20">Une app pensée pour les ados TDAH pour développer leurs compétences à leur façon</p>
+                <p class="margin-top20">Une app pensée pour les ados TDAH pour développer leurs compétences à leur façon
+                </p>
             </div>
             <div class="">
-                <div class="w50">
+                <div class="flex w50">
                     <i class="ph-fill ph-envelope footer-icone-container"></i>
                     <p>hello@littlelearners.com</p>
                 </div>
-                <div>
+                <div class="flex">
                     <i class="ph-fill ph-phone footer-icone-container"></i>
                     <p>+91 91813 23 2309</p>
                 </div>
-                <div>
+                <div class="flex">
                     <i class="ph-fill ph-map-pin footer-icone-container"></i>
                     <p>Somewhere in the World</p>
                 </div>
