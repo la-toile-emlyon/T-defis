@@ -9,7 +9,9 @@
     background-color: red;
 }
 
-
+.noir{
+    background-color: black;
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,7 +21,9 @@
 
 p{
     font-family: "Oxanium", sans-serif;
+    font-size: 16px;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Oxanium", sans-serif;
 }
@@ -81,6 +85,9 @@ section {
     gap: 10px
 }
 
+.gap-50 {
+    gap: 50px;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -151,6 +158,9 @@ section {
     padding: 40px 0px 40px 0px;
 }
 
+.padding-top-50{
+    padding-top: 50px;
+}
 .margin-left50 {
     margin-left: 50px;
 }
@@ -230,6 +240,9 @@ section {
     font-size: 30px;
 }
 
+.douze{
+    font-size: 12px;
+}
 .txtcenter {
     text-align: center;
 }
@@ -298,7 +311,9 @@ a {
     font-family: "Oxanium", sans-serif;
 }
 
-
+.police{
+    font-family: "Oxanium", sans-serif;
+}
 .icone-title {
     font-size: 40px;
 }
@@ -329,6 +344,8 @@ a {
 /* Alignement de texte */
 .align-center {
     align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .align-left {
@@ -386,7 +403,6 @@ header {
     position: sticky;
     top: 0px;
     background-color: white;
-    justify-content: space-between;
     align-items: center;
     text-decoration: none;
     padding: 15px 30px;
@@ -459,6 +475,14 @@ button:active {
 
 .background-violetpastel {
     background-color: #BF9DD8;
+}
+
+.background-bleu{
+    background-color: #6CBBC4;
+}
+
+.background-rouge{
+    background-color: #DE826D;
 }
 
 /*SECTION Pourquoi*/
@@ -597,19 +621,19 @@ h5 {
 /*TESTS UTILISATEURS*/
 
 .image-test-utilisateur {
-    width: 100%;
+    width: 30%;
     padding: 20px;
     border-radius: 10px;
 }
 
 /*EQUIPE*/
 
+
 .card {
-  font-family: Montserrat, sans-serif;
-  width: 300px;
-  height: 250px;
+  font-family: "Oxanium", sans-serif;
+  width: 40%;
+  height: 55%;
   translate: -6px -6px;
-  background: #ff66a3;
   border: 3px solid #000000;
   box-shadow: 12px 12px 0 #000000;
   overflow: hidden;
@@ -639,6 +663,12 @@ h5 {
   translate: -6px;
 }
 
+.image-equipe {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}  
 
 /*FOOTER*/
 
@@ -662,3 +692,68 @@ h5 {
     box-shadow: 0px 0px 5px gray;
 }
 
+/*Animation contacts*/
+/* From Uiverse.io by eslam-hany */ 
+.book {
+  position: relative;
+  border-radius: 20px;
+  width: 230px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #C366A7;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: #BF9DD8;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+   box-shadow: 5px 5px 0px rgb(0, 0, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
