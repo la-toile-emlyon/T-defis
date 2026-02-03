@@ -669,7 +669,7 @@ h5 {
     border: #000000 3px solid;
     font-size: 15px;
     position: sticky;
-    top: 150px;
+    top: 100px;
     margin-left: 10px;
     text-decoration: none;
 }
@@ -885,7 +885,7 @@ h5 {
 
 p {
   font-size: 20px;
-  font-weight: bolder;
+/*  font-weight: bolder;*/
 }
 
 .btn {
