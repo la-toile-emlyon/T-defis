@@ -34,7 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
     scroll-margin-top: 100px;
-    padding: 80px 0px;
+    padding: 50px 0px;
+}
+
+.section-sans-pt{
+      scroll-margin-top: 100px;
+    padding: 0px;
 }
 
 /*classes flex*/
@@ -53,6 +58,10 @@ section {
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+.flex-direction-column{
+    flex-direction: column;
 }
 
 .colonne {
@@ -80,6 +89,7 @@ section {
 .divmoove {
     transform: translate(120px, -2px);
 }
+
 
 .gap-20 {
     gap: 20px;
@@ -130,6 +140,13 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+.margin-top250 {
+    margin-top: 250px;
+}
+
+.margin-top300 {
+    margin-top: 300px;
+}
 
 .margin-top100 {
     margin-top: 100px;
@@ -168,8 +185,15 @@ section {
     padding: 40px 0px 40px 0px;
 }
 
+.pl-55{
+    padding-left: 55px;
+}
+
 .padding-top-50{
     padding-top: 50px;
+}
+.margin-left25 {
+    margin-left: 25px;
 }
 .margin-left50 {
     margin-left: 50px;
@@ -241,6 +265,15 @@ section {
 .w70 {
     width: 70%;
 }
+
+.w75{
+width: 75%;
+}
+
+.w80{
+    width: 80%;
+}
+
 
 .w100 {
     width: 100%;
@@ -421,7 +454,7 @@ header {
     background-color: white;
     align-items: center;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 35px;
     z-index: 10;
     /* permet d'avancer le header comme un axe Z (ça avance la fonction et à l'inverse si le chiffre était négatif ça reculerais)*/
     box-shadow: 0px 0px 5px gray;
@@ -494,7 +527,7 @@ button:active {
 }
 
 .background-bleu{
-    background-color: #5d849d;
+    background-color: #5a7eb4;
 }
 
 .background-rouge{
@@ -503,6 +536,9 @@ button:active {
 
 .background-rose-team{
     background-color: #BD5971;
+}
+.background-vert{
+background-color: #9BC264;
 }
 /*SECTION Pourquoi*/
 
@@ -517,8 +553,9 @@ button:active {
 }
 
 h5 {
-    font-size: 23px;
+    font-size: 18px;
     font-family: "Oxanium";
+    margin-bottom: 10px;
 }
 
 .fond-puzzle {
@@ -550,7 +587,7 @@ h5 {
     background-image: url(asset/bg-hero.png);
     background-size: cover;
     background-position: right;
-    height: 90vh;
+    height: 80vh;
     border-radius: 0px 0px 15px 15px;
 }
 
@@ -588,20 +625,17 @@ h5 {
 
 /*DOCUMENTATION*/
 
-.documentation-box {
-    margin-left: 350px;
-}
+
 /*SOMMAIRE*/
 
 .cadre-sommaire {
-    width: 25%;
     border-radius: 20px;
     box-shadow: 5px 5px 0px rgb(0, 0, 0);
     background-color: white;
     border: #000000 3px solid;
-    font-size: 20px;
+    font-size: 15px;
     position: sticky;
-    top: 0px;
+    top: 150px;
     margin-left: 10px;
     text-decoration: none;
 }
@@ -692,7 +726,7 @@ h5 {
 .card {
   font-family: "Oxanium", sans-serif;
   width: 40%;
-  height: 55%;
+  height: 45%;
   translate: -6px -6px;
   border: 3px solid #000000;
   box-shadow: 12px 12px 0 #000000;
@@ -828,3 +862,20 @@ p {
     border: 3px solid black;
     padding: 10px 10px;
     display: inline-block;}
+
+    .bulle{
+        padding:40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0);
+    background-color: white;
+    border: #000000 3px solid;
+
+    }
+    .container-doc{
+        margin: 0px 100px 0px 40px;
+    }
+
+
+    .rejoignez{
+         padding: 0 55px;
+    }
