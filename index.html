@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+ 
     <script src="script.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
     <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -243,8 +245,68 @@
                     Ils en parlent mieux que nous
                 </h2>
             </div>
+            <!-- zone carousel -->
+            <div>
 
-            <div class="flex">
+                  <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="message">
+                        <div class="message-content">
+                            <div>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <p>– Lucas, 20 ans</p>
+                            </div>
+                            <p>L’app m’aide surtout à commencer quand je suis bloqué. Les défis sont courts et
+                                clairs, ça enlève la pression. J’aimerais juste avoir plus de choix selon mon
+                                humeur
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="message">
+                        <div class="message-content">
+                            <div>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <p>-Emma, 22 ans</p>
+                            </div>
+
+                            <p>C’est la première app qui ne me fait pas culpabiliser. Même quand je fais un petit
+                                effort, j’ai l’impression que ça compte vraiment.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="message">
+                        <div class="message-content">
+                            <div>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <i class="ph-fill ph-star etoiles"></i>
+                                <p>-Sarah, 19 ans</p>
+                            </div>
+                            <p>Grâce à l’app, j’ai repris un peu confiance en moi à la fac. J’aime le fait que
+                                tout soit découpé en petites étapes ,compréhensive et ludique.</p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    </div>
+                <div class="swiper-pagination"></div>
+                </div>
+
+                <!--  
                 <div class="container">
                     <div class="message">
                         <div class="message-content">
@@ -299,7 +361,7 @@
                         </div>
                     </div>
                 </div>
-
+-->
 
             </div>
         </section>
@@ -336,10 +398,6 @@
             <div class="margin-right-50 flex gap-10 colonne">
                 <div class="flex gap-10 police align-center">
 
-
-
-
-
                     <i class="ph-fill ph-envelope footer-icone-container "></i>
                     <p>hello@littlelearners.com</p>
 
@@ -355,10 +413,10 @@
 
             </div>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+    <script src="./script.js" defer></script>
+
 </body>
 
 </html>

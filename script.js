@@ -1,1 +1,11 @@
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ AOS.init();
+
+// configuration du carousel swiper
+var swiper = new Swiper(".mySwiper", {
+slidesPerView: "auto",
+spaceBetween: 30,
+pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+},
+});
