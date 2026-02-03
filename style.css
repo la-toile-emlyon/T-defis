@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-
+/*sommaire docu*/
+.scrollmargin-topsommaire {
+    scroll-margin-top: 35px;
+}
+/*rab*/
 .blue {
     background-color: blue;
 }
@@ -53,7 +57,7 @@ section {
 
 .colonne {
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     display: flex;
 }
 
@@ -79,6 +83,9 @@ section {
 
 .gap-20 {
     gap: 20px;
+}
+.gap-4 {
+    gap: 4px;
 }
 
 .gap-10 {
@@ -145,7 +152,9 @@ section {
 .margin-bottom20 {
     margin-bottom: 20px;
 }
-
+.padding-5 {
+    padding: 5px 10px 5px 10px;
+}
 
 .padding-10 {
     padding: 15px 0px 15px 0px;
@@ -310,6 +319,7 @@ h2 {
 
 h1 {
     font-size: 60px;
+    font-family: "Oxanium",sans-serif;
 }
 
 p,
@@ -347,13 +357,13 @@ a {
     padding: 20px;
 }
 
-/* Alignement de texte */
+/* Alignement de texte 
 .align-center {
     align-items: center;
     justify-content: center;
     align-content: center;
 }
-
+*/
 .align-left {
     align-items: left;
 }
@@ -423,7 +433,7 @@ button {
   font-family: inherit;
   padding: 0.6em 1.3em;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 16px;
   border: 3px solid black;
   border-radius: 0.4em;
   box-shadow: 0.1em 0.1em;
@@ -484,13 +494,16 @@ button:active {
 }
 
 .background-bleu{
-    background-color: #6CBBC4;
+    background-color: #5d849d;
 }
 
 .background-rouge{
     background-color: #DE826D;
 }
 
+.background-rose-team{
+    background-color: #BD5971;
+}
 /*SECTION Pourquoi*/
 
 .taille-bg {
@@ -537,7 +550,8 @@ h5 {
     background-image: url(asset/bg-hero.png);
     background-size: cover;
     background-position: right;
-    height: 50vh;
+    height: 90vh;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .download-box img {
@@ -622,8 +636,25 @@ h5 {
 .userflow-img {
     width: 100%;
     padding: 20px;
+    border-radius: 20px;
 }
 
+/*Carousels*/
+.carousel-contenu{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap:32px;
+    >div{
+        width: 200px;
+    }
+}
+
+.carousel-container{
+    width:100%;
+    overflow-x: scroll;
+}
 /*TESTS UTILISATEURS*/
 
 .image-test-utilisateur {
@@ -693,9 +724,8 @@ h5 {
 }
 
 .image-equipe {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 40%;
+    height: 40%;
     margin-bottom: 10px;
 }  
 
@@ -706,8 +736,8 @@ h5 {
 }
 
 .footer-icone-container {
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
     background-color: #C366A7;
     font-size: 30px;
     margin-left: 20px;
@@ -715,6 +745,9 @@ h5 {
     color: white;
     border-radius: 5px;
     border: #000000 solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ombre{
@@ -740,7 +773,7 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
+  -webkit-bogn: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
@@ -786,3 +819,12 @@ p {
   font-size: 20px;
   font-weight: bolder;
 }
+
+.btn {
+    background: #F1E2C4;
+    border-radius:10px;
+    color:black;
+     box-shadow: 0.1em 0.1em;
+    border: 3px solid black;
+    padding: 10px 10px;
+    display: inline-block;}
