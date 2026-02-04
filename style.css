@@ -818,6 +818,9 @@ h5 {
     justify-content: center;
 }
 
+.taille-icone{
+    font-size:40px
+}
 .ombre{
     box-shadow: 0px 0px 5px gray;
 }
